@@ -1,0 +1,93 @@
+/* Bootstrap overrides */
+.navbar-brand {
+	color: #232460 !important;
+}
+.active {
+	background-color: #232460 !important;
+}
+
+.nav-link {
+	color: #232460;
+}
+
+
+/* jumbotron background */
+
+.background-photo {
+	background-image: url('../img/background.jpg');
+	background-color: #0f11c5;
+	color: #fdfafe;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+/* background colors */
+
+.bg-pearl{
+    background: #fdfafe;
+}
+.bg-blue{
+    background: #0f11c5;
+}
+.bg-black{
+    background: #06061b;
+}
+.bg-darkblue{
+    background: #0e11ac;
+}
+.bg-darkerblue{
+    background: #232460;
+}
+.bg-grey{
+    background: #9fa1b9;
+}
+.bg-lilac{
+    background: #818ecb;
+}
+.bg-lightblue{
+    background: #3f58af;
+}
+
+/* text colors */
+
+.text-pearl {
+	color: #fdfafe;
+}
+
+.text-black {
+	color: #06061b;
+}
+
+.text-darkerblue {
+	color: #232460;
+}
+
+/* borders */
+
+.border-blue {
+	border: solid 0.2rem #232460;
+}
+
+/* opacity */
+
+.opacity {
+	opacity: 0.9;
+}
+
+
+
+/* extra media queries */
+
+/* MEDIA QUERY */
+
+@media (max-width: 500px) {
+    #my-title, #my-heading {
+        font-size: 1rem;
+    }
+
+    #my-main {
+    	font-size: 2rem;
+    }
+}
